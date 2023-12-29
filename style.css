@@ -1,0 +1,39 @@
+body {
+    background: #edeaff;
+}
+
+.stopwatch {
+    width: 80%;
+    max-width: 500px;
+    background-image: linear-gradient(rgba(53, 49, 49, 0.8), rgba(0, 0, 0, 0.8)), url(https://media.springernature.com/w580h326/nature-cms/uploads/collections/Hero_image_1200x675_pixels_2-5273134ecbb5c94f78bbc87366502385.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 100px auto 0;
+}
+
+.stopwatch h1 {
+    font-weight: 300;
+    font-size: 65px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons img {
+    width: 55px;
+    border: 0px solid black;
+    border-radius: 50px;
+    background-color: rgb(97, 82, 82);
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2) {
+    width: 80px;
+}
